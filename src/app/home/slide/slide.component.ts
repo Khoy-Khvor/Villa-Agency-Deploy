@@ -38,22 +38,22 @@ export class SlideComponent implements OnInit, OnDestroy {
 
   imagePathName = [
     {
-      path: '../../../..//public/images/slides/1.jpg',
+      path: '../../..//images/slides/1.jpg',
       title: ['Toronto', 'Canada'],
       description: ['hurry!', 'get the best', 'villa for you'],
     },
     {
-      path: '../../../..//public/images/slides/2.jpg',
+      path: '../../..//images/slides/2.jpg',
       title: ['Miami', 'South Florida'],
       description: ['act now!', 'get the highest', 'level penthouse'],
     },
     {
-      path: '../../../..//public/images/slides/3.jpg',
+      path: '../../..//images/slides/3.jpg',
       title: ['Melbourne', 'Australia'],
       description: ['be quick!', 'get the best', 'villa in town'],
     },
     {
-      path: '../../../..//public/images/slides/4.png',
+      path: '../../..//images/slides/4.png',
       title: ['Villa Plus', 'Cambodia'],
       description: ['wunderfull', 'powerfull for you', 'beutiful town'],
     },

@@ -7,7 +7,7 @@ import { Home } from '../interface/home';
   providedIn: 'root',
 })
 export class HomeService {
-  private api = '../../..//public/databases/data.json';
+  private api = '../..//databases/data.json';
   constructor(private http: HttpClient) {}
 
   getData(): Observable<Home[]> {
